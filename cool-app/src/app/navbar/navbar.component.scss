@@ -1,0 +1,23 @@
+div {
+  background-color: #B36A5E;
+  color: #EED7C5;
+  padding: 8px 24px;
+
+  i {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  ul {
+    list-style: none;
+    display: inline;
+    vertical-align: middle;
+    padding: 0;
+    margin-left: 36px;
+
+    li {
+      display: inline-block;
+      margin-right: 16px;
+    }
+  }
+}

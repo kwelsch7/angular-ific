@@ -11,5 +11,3 @@ export class AppComponent {
   title = 'super duper apper scooper';
   numNum = randomVariable;
 }
-
-

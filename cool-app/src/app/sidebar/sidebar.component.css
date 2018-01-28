@@ -1,0 +1,29 @@
+div {
+  float: right;
+  width: 33%;
+  border: solid 1px #B36A5E;
+  border-radius: 4px;
+  padding: 30px 50px;
+  background-color: #EEE2DF;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 6px 10px;
+  border: solid 1px #C97C5D;
+  border-bottom: 0;
+  background-color: #EED7C5;
+}
+
+li:last-of-type {
+  border-bottom: solid 1px #C97C5D;
+}
+
+li:hover {
+  background-color: #C89F9C;
+}
