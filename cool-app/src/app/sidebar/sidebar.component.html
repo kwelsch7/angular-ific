@@ -1,9 +1,7 @@
 <div>
   <ul>
-    <li>Cool place</li>
-    <li>Okay Place</li>
-    <li>Boise</li>
-    <li>Colorado Springs</li>
-    <li>Spokane</li>
+    <li *ngFor="let place of places">{{ place }}</li>
   </ul>
+  <input type="text" [(ngModel)]="newPlace" />
+  <button (click)="addPlace()">Add a Place</button>
 </div>
